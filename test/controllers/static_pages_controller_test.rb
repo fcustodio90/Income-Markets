@@ -2,7 +2,7 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @base_title = 'Income Markets'
+    @base_title = '| Income Markets'
   end
 
   test "should get home" do
