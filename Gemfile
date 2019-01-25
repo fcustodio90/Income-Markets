@@ -20,6 +20,14 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+group :test do
+  gem 'rails-controller-testing'
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'guard'
+  gem 'guard-minitest'
+end
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
